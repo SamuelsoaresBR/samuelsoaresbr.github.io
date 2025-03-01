@@ -1,0 +1,25 @@
+header{
+  background: #282828;
+  height: 100px;
+}
+
+
+.menu{
+display: flex;
+justify-content: space-between;
+max-width: 1250px;
+margin: 0 auto;
+align-items: center;
+padding-top: 25px;
+font-size: 20px;
+}
+
+.botoes-menu{
+  display: flex;
+  gap: 3rem;
+}
+
+.menu ul li a{
+  color: #F7E8F5;
+}
+

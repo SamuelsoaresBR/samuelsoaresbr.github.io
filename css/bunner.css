@@ -1,0 +1,57 @@
+.bunner-blue{
+  background: #3A4FDD;
+  height: 700px;
+}
+
+.bunner{
+  display: grid;
+  grid-template-columns: 520px auto;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.descricao{
+ margin-left: 130px;
+ align-content: center;
+ position: relative;
+ height: 240px;
+}
+
+/* p-- 47px   h1--75px*/ 
+
+.descricao p{
+  font-size: max(47px, 2vw);
+  margin: 0;
+  padding: 0px;
+  position: absolute;
+  top: 0;
+}
+
+.descricao h1{
+  font-size: 75px;
+  margin: 0;
+  padding: 0px;
+  color: #F7E8F5;
+  margin-bottom: 15px;
+}
+
+.bunner a{
+  background: linear-gradient(#66FF18, #50B71C);
+  padding: 10px 20px;
+  font-size: 36px;
+  margin-top: 1000px;
+  color: #398811;
+  font-weight: bold;
+  border-radius: 5px;
+  align-items: end;
+}
+
+
+
+
+
+
+
+

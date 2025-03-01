@@ -1,0 +1,43 @@
+.sobre-mim{
+  background-color: #282828;
+  display: inline-block;
+}
+
+.div-apre{
+  display: grid;
+  grid-template-columns: 520px auto;
+  justify-content: space-between;
+  margin: 0 120px;
+  align-items: center;
+}
+
+.apresentacao p{
+  color: #EFEFEF;
+  font-size: 1.5rem;
+  padding: 55px 35px;
+}
+
+.div-apre h1{
+  font-size: 8rem;
+  color: #EFEFEF ;
+}
+
+.apresentacao{
+  background: #1C1C1C;
+ border-radius: 10px;
+ position: relative;
+}
+
+.apresentacao p::before{
+  width: 50px;
+  height: 20px;
+  content: "";
+  background-color: #3A4FDD;
+  position: absolute;
+  top: 35px;
+  left: -15px;
+}
+
+span{
+  font-weight: bold;
+}
