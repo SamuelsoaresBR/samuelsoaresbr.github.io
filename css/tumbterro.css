@@ -1,0 +1,22 @@
+main{
+  background: #F7E8F5;
+}
+
+main h1{
+  font-size: 75px;
+  margin: 0 200px;
+  margin-bottom: 70px;
+}
+
+.bg-galeria{
+  margin-top: 170px;
+  display: inline-block;
+}
+
+.galeria{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1250px;
+  gap: 50px;
+  margin: 0 200px;
+}
