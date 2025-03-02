@@ -1,5 +1,7 @@
 main{
   background: #F7E8F5;
+  max-width: 2300px;
+  height: 2250px;
 }
 
 main h1{
@@ -19,4 +21,13 @@ main h1{
   max-width: 1250px;
   gap: 50px;
   margin: 0 200px;
+}
+
+.bg-galeria a{
+  color: #282828;
+  float: left;
+  font-size: 36px;
+  text-decoration:underline;
+  margin-left: 1225px;
+  
 }

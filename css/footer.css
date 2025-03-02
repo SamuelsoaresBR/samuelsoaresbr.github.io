@@ -1,0 +1,23 @@
+.footer-bg{
+  background: #282828;
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1250px;
+  margin-left: 200px;
+  }
+
+  .des-final p{
+    color: #F7E8F5;
+    font-size: 41px;
+  }
+
+  .des-final-2  p{
+    font-size: 41px;
+    color: #F7E8F5;
+  }
+
+  .direitos{
+    color: #969696;
+    font-size: 20px;
+  }
