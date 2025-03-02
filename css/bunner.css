@@ -88,3 +88,35 @@
     max-width: 150px;
   }
 }
+
+@media (max-width: 350px){
+  
+  .descricao{
+    margin-left: 0.5rem;
+    height: 95px;
+    width: 120px;
+  }
+
+  .descricao h1{
+    font-size: 1rem;
+  }
+
+  .descricao p{
+    font-size: 1rem;
+  }
+
+  .descricao a{
+    font-size: 1rem;
+    padding: 5px 5px;
+  }
+
+  .bunner{
+    display: grid;
+    grid-template-columns: 150px 150px;
+  }
+
+  .bunner img{
+    max-width: 150px;
+    max-width: 150px;
+  }
+}
