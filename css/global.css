@@ -19,3 +19,9 @@ img{
 a{
   text-decoration: none;
 }
+
+@media (max-width: 730px){
+  body{
+    max-width: 300px;
+  }
+}

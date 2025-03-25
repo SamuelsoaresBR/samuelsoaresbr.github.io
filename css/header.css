@@ -42,13 +42,17 @@ font-size: 20px;
 
 }
 
-@media (max-width: 430px){
+@media (max-width: 730px){
   .botoes-menu{
     display: none;
   }
   .menu{
     margin-left: 16px;
     width: 300px;
+  }
+
+  header{
+   width: 325px;
   }
 }
 

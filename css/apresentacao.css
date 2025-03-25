@@ -43,7 +43,7 @@ span{
   font-weight: bold;
 }
 
-@media (max-width: 430px){
+@media (max-width: 730px){
   .div-apre{
     grid-template-columns: 430px;
     margin: 20px;
@@ -70,6 +70,10 @@ span{
       position: absolute;
       top: 15px;
       left: -15px;
+    }
+
+    .sobre-mim{
+      width: 325px;
     }
 
 }
