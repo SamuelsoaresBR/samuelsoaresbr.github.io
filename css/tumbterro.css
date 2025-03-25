@@ -31,3 +31,19 @@ main h1{
   margin-left: 1225px;
   
 }
+
+@media (max-width: 430px){
+  .galeria{
+    grid-template-columns: 1fr;
+    max-width: 300px;
+    margin: 10px;
+  }
+
+  main h1{
+    margin: 10px;
+  }
+
+  main{
+    width: 325px;
+  }
+}

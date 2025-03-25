@@ -42,3 +42,34 @@
 span{
   font-weight: bold;
 }
+
+@media (max-width: 430px){
+  .div-apre{
+    grid-template-columns: 430px;
+    margin: 20px;
+  }
+
+  .div-apre h1{
+    font-size: 4rem;}
+
+    .apresentacao p{
+      font-size: 1rem;
+      padding: 20px 20px;
+      max-width: 300px;
+    }
+
+    .apresentacao{
+      max-width: 300px;
+    }
+
+    .apresentacao p::before{
+      width: 30px;
+      height: 15px;
+      content: "";
+      background-color: #3A4FDD;
+      position: absolute;
+      top: 15px;
+      left: -15px;
+    }
+
+}

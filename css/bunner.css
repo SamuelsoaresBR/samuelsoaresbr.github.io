@@ -57,66 +57,37 @@
   width: 100%;
 }
 
-@media (max-width: 300px){
-  
-  .descricao{
-    margin-left: 0.5rem;
-    height: 95px;
-    width: 120px;
-  }
-
-  .descricao h1{
-    font-size: 1rem;
-  }
-
-  .descricao p{
-    font-size: 1rem;
-  }
-
-  .descricao a{
-    font-size: 1rem;
-    padding: 5px 5px;
-  }
-
+@media (max-width: 430px){
   .bunner{
-    display: grid;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 350px;
+    margin-left: 16px;
   }
 
-  .bunner img{
-    max-width: 150px;
-    max-width: 150px;
-  }
-}
-
-@media (max-width: 350px){
-  
   .descricao{
-    margin-left: 0.5rem;
-    height: 95px;
-    width: 120px;
-  }
+   margin-left: 0px;
+   margin-bottom: 50px;
+   }
 
-  .descricao h1{
-    font-size: 1rem;
-  }
+   .descricao p{
+    font-size: 25px;
+    }
 
-  .descricao p{
-    font-size: 1rem;
-  }
+    .descricao{
+      height: 140px;
+    }
 
-  .descricao a{
-    font-size: 1rem;
-    padding: 5px 5px;
-  }
+   .descricao h1{
+    font-size: 40px;
+   }
 
-  .bunner{
-    display: grid;
-    grid-template-columns: 150px 150px;
-  }
+   .bunner a{
+    font-size: 20px;
+   }
+   .bunner img{
+    width: 300px;
+   }
 
-  .bunner img{
-    max-width: 150px;
-    max-width: 150px;
-  }
+   .bunner-blue{
+    width: 325px;
+   }
 }

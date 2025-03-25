@@ -21,3 +21,23 @@
     color: #969696;
     font-size: 20px;
   }
+
+  @media (max-width: 430px){
+    .des-final p{
+      font-size: 20px;
+    }
+
+    .des-final-2  p{
+      font-size: 20px;
+    }
+
+    .footer-bg{
+      grid-template-columns: 1fr;
+      margin: 20px;
+      width: 300px;
+    }
+
+    .direitos{
+      font-size: 16px;
+    }
+  }
