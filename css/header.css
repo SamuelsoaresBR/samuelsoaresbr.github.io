@@ -23,28 +23,9 @@ font-size: 20px;
   color: #F7E8F5;
 }
 
-@media (max-width: 300px){
-  .menu img{
-    width: 60px;
-  }
-  .menu{
-    margin-right: 1rem;
-    margin-left: 1rem;
-     }
-  .botoes-menu{
-    gap: 1rem;
-    font-size: 1rem;
-  }
-
-  header{
-    height: 60px;
-  }
-
-}
-
 @media (max-width: 730px){
   .botoes-menu{
-    display: none;
+   display: none;
   }
   .menu{
     margin-left: 16px;
@@ -52,8 +33,8 @@ font-size: 20px;
   }
 
   header{
-   width: 325px;
-  }
+   width: 390px;
+   }
 }
 
 

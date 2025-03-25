@@ -59,7 +59,7 @@
 
 @media (max-width: 730px){
   .bunner{
-    grid-template-columns: 350px;
+    grid-template-columns: 1fr;
     margin-left: 16px;
   }
 
@@ -77,17 +77,17 @@
     }
 
    .descricao h1{
-    font-size: 40px;
+    font-size: 45px;
    }
 
    .bunner a{
     font-size: 20px;
    }
    .bunner img{
-    width: 300px;
+    width: 1fr;
    }
 
    .bunner-blue{
-    width: 325px;
+    width: 1fr;
    }
 }
