@@ -1,0 +1,32 @@
+main{
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.galeria{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px
+}
+.bg-galeria a{
+  text-decoration:underline;
+  color: #282828;
+  padding: 25px;
+  margin-left: 1070px;
+  font-size: 36px;
+}
+
+@media (max-width: 790px){
+
+  main{
+    width: 390px
+  }
+  .galeria{
+    flex-direction: column;
+  }
+
+  .bg-galeria a{
+    margin-left: 220px;
+    display: none
+  }
+}
