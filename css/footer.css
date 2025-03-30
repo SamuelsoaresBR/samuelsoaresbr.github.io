@@ -1,0 +1,45 @@
+footer{
+  background: #282828;
+  margin-top: 250px;
+  height: 500px;
+ }
+
+
+footer p{
+  color: #F7E8F5;
+  font-size: 41px;
+}
+
+.footer-flex{
+  display: flex;
+  gap: 100px;
+  margin-left: 150px;
+}
+
+.direitos{
+  font-size: 32px;
+  color: #969696;
+  margin-left: 150px;
+}
+
+@media (max-width: 790px){
+  .footer-flex{
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 24px;
+    padding-top: 50px;
+  }
+
+  footer{
+    margin-top: 100px;
+  }
+
+  footer p{
+    font-size: 25px;
+  }
+
+  .direitos{
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}
